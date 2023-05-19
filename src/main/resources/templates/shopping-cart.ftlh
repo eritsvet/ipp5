@@ -2,28 +2,6 @@
 <@t.template user>
     <h1 style="text-align: center">Корзина</h1>
     <hr>
-<#--    <#list shoppingCarts as shoppingCart>-->
-<#--        <div style="display: flex;justify-content: center;flex-wrap: wrap;flex-direction: row;">-->
-<#--            <#if shoppingCart.productName??>-->
-<#--                <#if shoppingCart.user.name == user.name>-->
-<#--                    <div class="d-flex justify-content-around">-->
-<#--                        <p>-->
-<#--                            <b>${shoppingCart.productName} </b>-->
-<#--                        </p>-->
-<#--                        <p>${shoppingCart.price} ₽</p>-->
-<#--                        <p><a href="/product/${shoppingCart.productId}">Подробнее...</a></p>-->
-<#--                        <form action="/product/deleteCart/${shoppingCart.id}" method="post">-->
-<#--                            <input type="hidden" name="_csrf" value="${_csrf.token}">-->
-<#--                            <input type="submit" value="Удалить">-->
-<#--                        </form>-->
-<#--                        &lt;#&ndash;                        <a href="/product/${shoppingCart.productId}">Подробнее...</a></p>&ndash;&gt;-->
-<#--                    </div>-->
-<#--                </#if>-->
-<#--            </#if>-->
-<#--        </div>-->
-<#--    <#else>-->
-<#--        <h3>Товаров нет</h3>-->
-<#--    </#list>-->
     <table class="table table-borderless">
         <thead>
 

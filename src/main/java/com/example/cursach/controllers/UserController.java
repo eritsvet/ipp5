@@ -46,12 +46,4 @@ public class UserController {
         model.addAttribute("products", user.getProducts());
         return "user-info";
     }
-
-    //Корзина
-//    @GetMapping("/user/{user}/shoppingCart")
-//    public String userShoppingCart(@PathVariable("user") User user, Model model){
-//        model.addAttribute("user", user);
-//        model.addAttribute("shoppingCart", user.getShoppingCart());
-//        return "shopping-cart";
-//    }
 }
