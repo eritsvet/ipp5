@@ -57,7 +57,12 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
-<!--		<dependency>-->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!--		<dependency>-->
 <!--			<groupId>-->
 <!--				org.hibernate-->
 <!--			</groupId>-->
@@ -67,6 +72,11 @@
 <!--			<version>-->
 <!--				5.2.1.Final-->
 <!--			</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.postgresql</groupId>-->
+<!--			<artifactId>postgresql</artifactId>-->
+<!--			<scope>runtime</scope>-->
 <!--		</dependency>-->
 	</dependencies>
 
